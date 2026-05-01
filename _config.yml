@@ -23,7 +23,7 @@ repository               : "Marisa-Ovo/Marisa-Ovo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Lekai Qian"
   pronouns         : # example: "she/her"
   bio              : "Undergraduate Student @ School of Future Technology, \nSouth China University of Technology"
