@@ -9,14 +9,15 @@ redirect_from:
 
 <span style="color: #003366; font-weight: bold; font-size: 0.7em;">About Me</span>
 ======
-I am currently an undergraduate student studying Artificial Intelligence at the School of Future Technology, South China University of Technology. I am advised by [Prof. Qi Liu](https://drliuqi.github.io/) on music generation and machine learning.
+I am a third-year undergraduate at the School of Future Technology, South China University of Technology, majoring in Artificial Intelligence and advised by [Prof. Qi Liu](https://drliuqi.github.io/). I also work closely with [Music X Lab](https://www.musicxlab.com/#/), where I am co-supervised by [Prof. Gus Xia](https://www.musicxlab.com/members/gus/) and [Dr. Ziyu Wang](https://zzwaang.github.io/).
 
-I also work closely with [Music X Lab](https://www.musicxlab.com/#/), where I am guided by [Prof. Gus Xia](https://www.musicxlab.com/members/gus/) and [Dr. Ziyu Wang](https://zzwaang.github.io/).
-
-<span style="color: #003366; font-weight: bold; font-size: 0.7em;">Research Interest</span>
+<span style="color: #003366; font-weight: bold; font-size: 0.7em;">Research Interests</span>
 ======
-The primary goal of my research is to develop effective representations for symbolic music that balance structural preservation with encoding efficiency. I believe that effective representation is the foundation for tackling various downstream tasks in symbolic music, from understanding to generation.
+My research centers on **representations for symbolic music** — how the choice of tokenization shapes what generative models can learn, compose, and control. I am particularly interested in moving beyond event-sequence formulations toward representations that more faithfully capture musical time, structure, and polyphony.
 
-To address this challenge, I integrate methods from computer vision and natural language processing to design a novel symbolic music representation. Currently, my method has achieved promising results on piano datasets, demonstrating the potential of this cross-modal strategy. I aim to refine this approach and validate it across diverse instruments and applications, working toward a state-of-the-art representation framework for symbolic music.
+Some of this work has appeared at ICML 2026 and ICASSP 2026. Please see the [publications]({{ site.baseurl }}/publications/) page for details.
 
-Our work on this approach has been accepted by ICASSP 2026. Feel free to check out our [paper](https://arxiv.org/abs/2601.19951) and [demo page](https://akualubi.github.io/PIANOROLL-EVENT/) for more details!
+<span style="color: #003366; font-weight: bold; font-size: 0.7em;">News</span>
+======
+- **May 2026**: Our paper *BEAT* has been accepted by ICML 2026.
+- **Jan 2026**: Our paper *Pianoroll-Event* has been accepted by ICASSP 2026.
