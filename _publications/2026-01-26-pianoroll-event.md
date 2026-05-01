@@ -3,11 +3,11 @@ title: "Pianoroll-Event: A Novel Score Representation for Symbolic Music"
 collection: publications
 category: conferences
 permalink: /publication/2026-pianoroll-event
-excerpt: 'We introduce an encoding scheme that merges pianoroll representations with event-based descriptions, achieving 1.36x to 7.16x encoding efficiency improvement.'
 date: 2026-01-26
-venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026)'
+venue: 'ICASSP'
+authors: 'Lekai Qian, Haoyu Gu, Dehan Li, Boyu Cao, Qi Liu'
 paperurl: 'https://arxiv.org/abs/2601.19951'
-citation: 'Lekai Qian, Haoyu Gu, Dehan Li, Boyu Cao, Qi Liu. (2026). &quot;Pianoroll-Event: A Novel Score Representation for Symbolic Music.&quot; <i>ICASSP 2026</i>.'
+demourl: 'https://akualubi.github.io/PIANOROLL-EVENT/'
 ---
 
 <div align="center">

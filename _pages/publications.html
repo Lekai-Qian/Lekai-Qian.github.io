@@ -5,32 +5,24 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if site.author.googlescholar %}
+  <p>You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
 {% endif %}
 
-
-
+<ul style="list-style: none; padding-left: 0;">
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_pubs %}
+  <li style="margin-bottom: 1.5em; line-height: 1.6;">
+    {{ post.authors | replace: 'Lekai Qian', '<b>Lekai Qian</b>' }}.
+    {{ post.title | remove: '"' }}.
+    <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.
+    {% if post.paperurl %} [<a href="{{ post.paperurl }}">paper</a>]{% endif %}
+    {% if post.demourl %} [<a href="{{ post.demourl }}">demo</a>]{% endif %}
+    {% if post.codeurl %} [<a href="{{ post.codeurl }}">code</a>]{% endif %}
+    {% if post.slidesurl %} [<a href="{{ post.slidesurl }}">slides</a>]{% endif %}
+    {% if post.bibtexurl %} [<a href="{{ post.bibtexurl }}">bibtex</a>]{% endif %}
+  </li>
+{% endfor %}
+</ul>
