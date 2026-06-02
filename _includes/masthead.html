@@ -7,8 +7,11 @@
     align-items: center;
     width: 100%;
   }
-  .greedy-nav .visible-links > li.tail:first-of-type {
-    margin-left: auto;
+  .greedy-nav .visible-links li.tail {
+    margin-left: auto;          /* first .tail consumes leftover space, pushing it right */
+  }
+  .greedy-nav .visible-links li.tail ~ li.tail {
+    margin-left: 0;             /* subsequent .tail items sit next to the first */
   }
 </style>
 
