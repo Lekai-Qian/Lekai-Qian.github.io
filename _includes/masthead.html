@@ -1,5 +1,15 @@
 {% include base_path %}
 
+{% comment %} Language toggle: detect whether current page is under /zh/ {% endcomment %}
+{% assign url_prefix = page.url | slice: 0, 3 %}
+{% if url_prefix == "/zh" %}
+  {% assign lang_target = "/" %}
+  {% assign lang_label = "EN" %}
+{% else %}
+  {% assign lang_target = "/zh/" %}
+  {% assign lang_label = "中文" %}
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -15,6 +25,11 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item persist tail">
+            <a href="{{ lang_target }}" role="button" title="Switch language / 切换语言">
+              <i class="fa-solid fa-globe" aria-hidden="true"></i>&nbsp;{{ lang_label }}
+            </a>
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
