@@ -1,6 +1,8 @@
 {% include base_path %}
 
 <style>
+  /* All nav items use .persist, so nothing ever overflows — hide the ☰ toggle */
+  .greedy-nav > button { display: none !important; }
   /* Push .tail (utility) items in the top nav to the far right corner */
   .greedy-nav .visible-links {
     display: flex !important;
