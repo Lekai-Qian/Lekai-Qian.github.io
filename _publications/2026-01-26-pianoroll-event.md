@@ -5,6 +5,8 @@ category: conferences
 permalink: /publication/2026-pianoroll-event
 date: 2026-01-26
 venue: 'ICASSP'
+header:
+  teaser: paper_icassp.png
 authors: 'Lekai Qian, Haoyu Gu, Dehan Li, Boyu Cao, Qi Liu'
 paperurl: 'https://arxiv.org/abs/2601.19951'
 demourl: 'https://akualubi.github.io/PIANOROLL-EVENT/'
