@@ -21,3 +21,23 @@ Concretely, I ground this agenda in **symbolic music**, where I study how the ch
 ======
 - **May 2026**: Our paper *BEAT* has been accepted by ICML 2026.
 - **Jan 2026**: Our paper *Pianoroll-Event* has been accepted by ICASSP 2026.
+
+<div id="publications"></div>
+<span style="color: #003366; font-weight: bold; font-size: 0.7em;">Publications</span>
+======
+{% if site.author.googlescholar %}You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.{% endif %}
+<ul style="list-style: none; padding-left: 0;">
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_pubs %}
+  <li style="margin-bottom: 1.5em; line-height: 1.6;">
+    {{ post.authors | replace: 'Lekai Qian', '<b>Lekai Qian</b>' }}.
+    {{ post.title | remove: '"' }}.
+    <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.
+    {% if post.paperurl %} [<a href="{{ post.paperurl }}">paper</a>]{% endif %}
+    {% if post.demourl %} [<a href="{{ post.demourl }}">demo</a>]{% endif %}
+    {% if post.codeurl %} [<a href="{{ post.codeurl }}">code</a>]{% endif %}
+    {% if post.slidesurl %} [<a href="{{ post.slidesurl }}">slides</a>]{% endif %}
+    {% if post.bibtexurl %} [<a href="{{ post.bibtexurl }}">bibtex</a>]{% endif %}
+  </li>
+{% endfor %}
+</ul>
