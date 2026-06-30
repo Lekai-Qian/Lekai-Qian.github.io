@@ -13,7 +13,9 @@ I am a third-year undergraduate at the School of Future Technology, South China 
 
 <span style="color: #003366; font-weight: bold; font-size: 0.7em;">Research Interests</span>
 ======
-My research centers on **representations for symbolic music** — how the choice of tokenization shapes what generative models can learn, compose, and control. I am particularly interested in moving beyond event-sequence formulations toward representations that more faithfully capture musical time, structure, and polyphony.
+My research lies at the intersection of **representation learning** and **generative modeling**. Broadly, I aim to learn high-quality semantic representations that empower generative methods — such as diffusion and autoregressive models — to model and generate **multimodal data** more effectively.
+
+Concretely, I ground this agenda in **symbolic music**, where I study how the choice of representation and tokenization shapes what generative models can learn, compose, and control. I am particularly interested in moving beyond event-sequence formulations toward representations that more faithfully capture musical time, structure, and polyphony.
 
 <span style="color: #003366; font-weight: bold; font-size: 0.7em;">News</span>
 ======
