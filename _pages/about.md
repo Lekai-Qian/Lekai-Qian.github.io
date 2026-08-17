@@ -19,5 +19,6 @@ Concretely, I ground this agenda in **symbolic music**, where I study how the ch
 
 <span style="color: #003366; font-weight: bold; font-size: 0.7em;">News</span>
 ======
+- **Jul 2026**: I was invited by [Prof. Juhan Nam](https://mac.kaist.ac.kr/~juhan/) to present our ICML paper, *BEAT*, at the Post-ICML Meetup for the Korean MIR Community, held at Seoul National University.
 - **May 2026**: Our paper *BEAT* has been accepted by ICML 2026.
 - **Jan 2026**: Our paper *Pianoroll-Event* has been accepted by ICASSP 2026.
