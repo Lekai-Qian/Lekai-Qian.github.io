@@ -11,10 +11,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  # Temporarily disabled: CV is hidden from the site.
-  # To restore, uncomment below AND move _files/CV.pdf back to files/CV.pdf
-  # - title: "CV"
-  #   url: /files/CV.pdf
+  - title: "CV"
+    url: /files/CV.pdf
 
   # - title: "CV"
   #   url: /cv-json/
