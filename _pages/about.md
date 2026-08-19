@@ -9,11 +9,11 @@ redirect_from:
 
 <span style="color: #003366; font-weight: bold; font-size: 0.7em;">About Me</span>
 ======
-I am a third-year undergraduate at the School of Future Technology, South China University of Technology, majoring in Artificial Intelligence and advised by [Prof. Qi Liu](https://drliuqi.github.io/). I also work closely with [Music X Lab](https://www.musicxlab.com/#/), where I am co-supervised by [Prof. Gus Xia](https://www.musicxlab.com/members/gus/) and [Dr. Ziyu Wang](https://zzwaang.github.io/).
+I am an undergraduate at the School of Future Technology, South China University of Technology, majoring in Artificial Intelligence and advised by [Prof. Qi Liu](https://drliuqi.github.io/). I also work closely with [Music X Lab](https://www.musicxlab.com/#/).
 
 <span style="color: #003366; font-weight: bold; font-size: 0.7em;">Research Interests</span>
 ======
-My research lies at the intersection of **representation learning** and **generative modeling**. Broadly, I aim to learn high-quality semantic representations that empower generative methods — such as diffusion and autoregressive models — to model and generate **multimodal data** more effectively.
+My research focuses on **generative modeling**, particularly on how representations, architectures, and conditioning affect generation quality, structural coherence, and controllability across modalities.
 
 Concretely, I ground this agenda in **symbolic music**, where I study how the choice of representation and tokenization shapes what generative models can learn, compose, and control. I am particularly interested in moving beyond event-sequence formulations toward representations that more faithfully capture musical time, structure, and polyphony.
 
